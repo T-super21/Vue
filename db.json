@@ -1,0 +1,74 @@
+{
+  "products" : [
+    {
+      "category" : "Fruits",
+      "description" : "Apple",
+      "id" : "1",
+      "name" : "Product1",
+      "price" : 100
+    },    
+    {
+      "category" : "Fruits",
+      "description" : "Pear",
+      "id" : "2",
+      "name" : "Product2",
+      "price" : 110
+    },
+    {
+      "category" : "Fruits",
+      "description" : "Banana",
+      "id" : "3",
+      "name" : "Product3",
+      "price" : 210
+    },
+    {
+      "category" : "Fruits",
+      "description" : "Peach",
+      "id" : "4",
+      "name" : "Product4",
+      "price" : 50
+    },
+    {
+      "category" : "Fruits",
+      "description" : "橘子",
+      "id" : "5",
+      "name" : "Product5",
+      "price" : 30
+    },
+    {
+      "category" : "Vegetables",
+      "description" : "Orange",
+      "id" : "6",
+      "name" : "Product6",
+      "price" : 20
+    },
+    {
+      "category" : "Vegetables",
+      "description" : "Tomato",
+      "id" : "7",
+      "name" : "Product7",
+      "price" : 55
+    },
+    {
+      "category" : "Vegetables",
+      "description" : "Chinese cabbage",
+      "id" : "8",
+      "name" : "Product8",
+      "price" : 60
+    },
+    {
+      "category" : "Meat",
+      "description" : "pork",
+      "id" : "9",
+      "name" : "Product9",
+      "price" : 500
+    },
+    {
+      "category" : "Meat",
+      "description" : "chicken",
+      "id" : "10",
+      "name" : "Product10",
+      "price" : 350
+    }
+  ]
+}
