@@ -15,10 +15,13 @@
 					<div class="well" v-for="(item, index) in nowProducts">
 					<h3>
 						<strong>{{ item.name }}</strong>
-						<span class="pull-right label label-primary">￥{{ item.price }}.00</span>
+						<span class="pull-right label label-primary">${{ item.price }}.00</span>
 					</h3>
 					<div class="description">
-						<span class="lead">{{ item.description }}</span>
+            <!-- 商品名称 -->
+						<a href="item.Src">
+              <span class="lead">{{ item.description }}</span>
+            </a>
 						<button class="btn btn-success pull-right"
 							@click="addStore(item)">添加到购物车</button>
 					</div>
