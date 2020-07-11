@@ -19,8 +19,10 @@
 					</h3>
 					<div class="description">
             <!-- 商品名称 -->
-						<a href="item.Src">
-              <span class="lead">{{ item.description }}</span>
+			<a href="http://item.Src">
+				<span class="lead">{{ item.description }}</span>
+			</a>
+
             </a>
 						<button class="btn btn-success pull-right"
 							@click="addStore(item)">添加到购物车</button>

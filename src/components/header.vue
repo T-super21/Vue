@@ -14,7 +14,10 @@
       </div>
 				<div class="navbar-right">
 					<div class="navbar-text">
-						<b>Your cart:Numbers: {{ sum }}&nbsp&nbsp&nbsp $:{{ money }}</b>
+						<b>Your cart:Numbers:
+            <span class="Font">{{ sum }}&nbsp&nbsp&nbsp</span>
+            $:
+            <span class="Font">{{ money }}</span></b>
 
 					</div>
 					<!--<a href="/cart" class="btn btn-default navbar-btn">购物车</a>-->
@@ -82,6 +85,10 @@ export default {
 input{
 	border-radius: 20px ;
 }
+  .Font{
+    color: red ;
+    font-family: "隶书";
+  }
 /* .hbgm{
   background:url(../img/04.jpg) no-repeat ;
   background-size: 100% 100% ;

@@ -35,8 +35,8 @@
 						<td class="text-left">
 							{{ item.name }}
 						</td>
-						<td class="text-right">￥{{ item.price }}</td>
-						<td class="text-right">{{item.count * item.price }}</td>
+						<td class="text-right Font">${{ item.price }}</td>
+						<td class="text-right Font">{{item.count * item.price }}</td>
 						<button class="btn btn-sm btn-warning" @click="del(item)">Delete</button>
 					</tr>
 				</tbody>
@@ -87,5 +87,9 @@
   .Background{
     background:url(../img/02.jpg) no-repeat ;
     background-size: 100% ;
+  }
+  .Font{
+    color: red ;
+    font-family: "隶书";
   }
 </style>
