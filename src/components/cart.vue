@@ -1,5 +1,5 @@
 <template>
-	<div class="container-fluid">
+	<div class="container-fluid Background">
 
 		<h2>Your cart</h2>
 		<div class="alert alert-warning"
@@ -7,7 +7,7 @@
 		<router-link to ="/" class="alert-link">Return</router-link>
 		</div>
 		<div v-show="sum != 0">
-			<table class="table">
+			<table class="table open">
 				<thead>
 					<tr>
 						<th>数量</th>
@@ -84,4 +84,8 @@
 	.mynumber{
 		text-align: center;
 	}
+  .Background{
+    background:url(../img/02.jpg) no-repeat ;
+    background-size: 100% ;
+  }
 </style>

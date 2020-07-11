@@ -82,4 +82,8 @@ export default {
 input{
 	border-radius: 20px ;
 }
+/* .hbgm{
+  background:url(../img/04.jpg) no-repeat ;
+  background-size: 100% 100% ;
+} */
 </style>

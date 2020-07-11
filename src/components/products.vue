@@ -1,18 +1,18 @@
 <template>
 	<div class="container-fluid">
-		<div class="panel panel-default row">
+		<div class="panel panel-default row bgm">
 			<div class="col-xs-3">
-				<a href="###" class ="btn btn-default btn-lg btn-block Color"
+				<a href="###" class ="btn btn-default btn-lg btn-block Color open"
 					@click="changeCategory('all')"
 					>All the products</a>
-				<a href="###" class="btn btn-block btn-default btn-lg Color"
+				<a href="###" class="btn btn-block btn-default btn-lg Color open"
 					v-for="(item,index) in categorys"
 					@click="changeCategory(item)"
 					v-bind:class="{ active: item == selectedCategory }">{{ item }}</a>
 			</div>
 
 				<div class="col-xs-9">
-					<div class="well" v-for="(item, index) in nowProducts">
+					<div class="well open" v-for="(item, index) in nowProducts">
 					<h3>
 						<strong>{{ item.name }}</strong>
 						<span class="pull-right label label-primary">${{ item.price }}.00</span>
@@ -134,4 +134,11 @@ export default{
 		width:80% ;
 		background-color: lightblue ;
 	}
+  .bgm{
+    background:url(../img/03.jpg) no-repeat ;
+    background-size: 100% ;
+  }
+  .open{
+    opacity:0.6 ;
+  }
 </style>
